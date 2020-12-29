@@ -1,0 +1,51 @@
+{
+  "name": "passport-square-oauth20",
+  "version": "1.0.0",
+  "description": "Square platform OAuth 2.0 authentication strategy for Passport.",
+  "main": "./lib/index.js",
+  "author": {
+    "name": "Ramesh Devarasetti",
+    "email": "npm@entegrations.io",
+    "url": "https://www.entegrations.io/"
+  },
+  "bugs": {
+    "url": "http://github.com/entegrations-io/passport-square-oauth20/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "describe": "^1.2.0",
+    "passport-oauth2": "^1.5.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "mocha": "^7.1.1",
+    "should": "^13.2.3"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "homepage": "https://github.com/entegrations-io/passport-square-oauth20#readme",
+  "keywords": [
+    "passport",
+    "square",
+    "squareup",
+    "auth",
+    "oauth2",
+    "authentication",
+    "identity"
+  ],
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/entegrations-io/passport-square-oauth20.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}
